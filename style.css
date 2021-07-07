@@ -1,0 +1,30 @@
+html, body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Header section */
+
+header{
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    margin: 0;
+    height:69px;
+}
+
+#logo{
+    position: fixed;
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    left: 10px;
+    top: 9.5px;
+    bottom: 9.5px;
+    }
