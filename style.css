@@ -31,13 +31,15 @@ header{
     }
 
     header div{
-        display: inline-block;
+        display: block;
         width: auto;
         text-align: right;
+        margin-right: 10px;
     }
 
     header div p {
         display: inline-block;
+        text-decoration: underline;
     }
 
     /* top section */
