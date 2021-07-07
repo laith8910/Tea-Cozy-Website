@@ -42,6 +42,23 @@ header{
         text-decoration: underline;
     }
 
+    @media screen and (max-width: 500px) {
+        #logo{
+            position: relative;
+            left: 0px;
+        }
+        header div {
+            background-color: black;
+            text-align: center;
+        }
+        header div p {
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            
+        }
+    }
+
     /* mission section */
 
     #mission{
