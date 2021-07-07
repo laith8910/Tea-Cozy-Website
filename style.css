@@ -28,3 +28,13 @@ header{
     top: 9.5px;
     bottom: 9.5px;
     }
+
+    header div{
+        display: inline-block;
+        width: auto;
+        text-align: right;
+    }
+
+    header div p {
+        display: inline-block;
+    }
