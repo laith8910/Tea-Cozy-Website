@@ -17,6 +17,7 @@ header{
     width: 100%;
     margin: 0;
     height:69px;
+    background-color: black;
 }
 
 #logo{
@@ -38,3 +39,11 @@ header{
     header div p {
         display: inline-block;
     }
+
+    /* top section */
+
+    #mission{
+        margin-top: 69px;
+    }
+
+    
