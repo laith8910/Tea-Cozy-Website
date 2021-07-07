@@ -42,10 +42,20 @@ header{
         text-decoration: underline;
     }
 
-    /* top section */
+    /* mission section */
 
     #mission{
-        margin-top: 69px;
+        margin: 69px auto 0px;
+        height: 700px;
+        width: 95%;
+        background-image: url(./resources/img-mission-background.webp);
+        background-size: cover;
+    }
+
+    #mission div{
+        position: relative;
+        top: 300px;
+        background-color: black;
     }
 
     
