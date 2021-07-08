@@ -41,11 +41,7 @@ header{
     header div p {
         display: inline-block;
         text-decoration: underline;
-    }
-
-    #right-side{
         margin-right: 5px;
-
     }
 
     @media screen and (max-width: 500px) {
@@ -123,11 +119,23 @@ header{
     background-color: black;
     flex-basis: 300px;
     margin: 5px;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-@media screen and (min-width: 1053px) {
+@media screen and (min-width: 1036px) {
     #flex{
         margin-top: 100px
     }
+}
+
+/* contact section and footer */
+
+#contact{
+    height: 200px
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
 }
