@@ -43,6 +43,11 @@ header{
         text-decoration: underline;
     }
 
+    #right-side{
+        margin-right: 5px;
+
+    }
+
     @media screen and (max-width: 500px) {
         #logo{
             position: relative;
@@ -56,7 +61,6 @@ header{
             display: inline-block;
             position: relative;
             text-align: center;
-            
         }
     }
 
@@ -65,7 +69,7 @@ header{
     #mission{
         margin: 69px auto 0px;
         height: 700px;
-        width: 95%;
+        width: 1000px;
         background-image: url(./resources/img-mission-background.webp);
         background-size: cover;
     }
@@ -95,5 +99,5 @@ header{
 
     /*locations section*/
 
-    
+
     
